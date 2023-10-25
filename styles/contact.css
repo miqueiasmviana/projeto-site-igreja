@@ -1,0 +1,130 @@
+@charset "UTR-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+@import url(/teste/styles/global.css);
+#contact {
+    height: 100vh;
+    background-color: var(--color-neutral-70);
+    height: 100vh;
+    background-color: var(--color-neutral-70);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px var(--color-neutral-50);
+    font-family: "inter", sans-serif;
+}
+
+.container-contact {
+    background-color: var(--color-neutral-100);
+    border: none;
+    height: 500px;
+    width: 350px;
+    border-top-left-radius: 10px; /* Adiciona borda arredondada no canto direito superior */
+    border-bottom-left-radius: 10px; /* Adiciona borda arredondada no canto direito inferior */
+    transition: 0.5s;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#local-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: left;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    
+  }
+
+#nome {
+    margin-top: 5px;
+    height: 25px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+#email {
+    margin-top: 5px;
+    height: 25px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+#mensagem {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 150px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+
+.local-text {
+    align-items: left;
+}
+
+.map {
+    height: 400px;
+    width: 300px;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+input[type="submit"]
+
+{
+    height: 40px;
+    width: 100px;
+    background-color: #007bff;
+    color: #ffffff; 
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; 
+    font-size: 16px;
+  }
+
+  iframe {
+    margin: 0; /* Remove a margem padrão do <iframe> */
+    border: none; /* Remove a borda padrão do <iframe> */
+    border-top-right-radius: 10px; /* Adiciona borda arredondada no canto direito superior */
+    border-bottom-right-radius: 10px; /* Adiciona borda arredondada no canto direito inferior */
+    /* margin-left: -10px;  Adicione uma margem negativa para sobrepor o container à esquerda */
+    width: 350px;
+    height: 500px;
+    transition: 0.5s;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
